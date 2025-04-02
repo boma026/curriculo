@@ -56,6 +56,14 @@ h1 {
     color: #c3a36e;
 }
 
+.links{
+    color: white;
+}
+
+.links:hover{
+    color:aqua;
+}
+
 .container2 {
     display: flex;
     margin: 20px auto;
@@ -65,16 +73,17 @@ h1 {
 
 .sidebar {
     width: 30%;
-    background-color: #efefef;
+    background-color: #b1b1b1;
     padding: 20px;
     text-align: center;
 }
 
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     margin-bottom: 15px;
+    object-fit: cover;
 }
 
 h2 {
@@ -110,7 +119,7 @@ h2 {
 
 .sobre-mim p {
     text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.6;
     color: #444;
 }
@@ -163,8 +172,8 @@ ul {
 }
 
 ul li {
-    font-size: 14px;
-    color: #444;
+    font-size: 15px;
+    color: black;
     line-height: 1.6;
 }
 
