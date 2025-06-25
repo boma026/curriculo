@@ -12,7 +12,7 @@ body {
 }
 
 .container{
-    width: 990px;
+    width: 1400px;
 }
 
 .header {
@@ -20,7 +20,7 @@ body {
     color: white;
     padding: 20px;
     height: 350px;
-    width: 950px;
+    width: 1360px;
 }
 
 .logo {
@@ -74,10 +74,11 @@ h1 {
 }
 
 .sidebar {
-    width: 30%;
-    background-color: #b1b1b1;
+    width: 38%;
+    background-color: #1c1c1e;
     padding: 20px;
     text-align: center;
+    color: white;
 }
 
 .profile-pic {
@@ -90,6 +91,14 @@ h1 {
 
 h2 {
     font-size: 18px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 18px;
     color: #333;
     border-bottom: 2px solid black;
     padding-bottom: 5px;
@@ -98,16 +107,14 @@ h2 {
 }
 
 .competencias p {
-    background-color: #f0e5d8;
     padding: 10px;
     margin: 10px 0;
-    border-left: 4px solid #c3a36e;
     font-size: 14px;
     text-align: left;
 }
 
 .content {
-    width: 70%;
+    width: 62%;
     padding: 20px;
     background-color: white;
     text-align: left;
@@ -115,7 +122,6 @@ h2 {
 
 .sobre-mim {
     padding-bottom: 10px;
-
 }
 .experiencia {
     border-top: 2px solid black;
@@ -181,9 +187,19 @@ ul li {
     line-height: 1.6;
 }
 
+.sidebar .ligacoes a {
+  color: white; /* links brancos */
+  text-decoration: none;
+}
+
+.sidebar .ligacoes a:hover {
+  text-decoration: underline; /* opcional: destaque ao passar o mouse */
+}
+
 .ligacoes {
     margin-top: 30px;
-    border-top: 2px solid black;
+    border-top: 2px solid white;
+    color: white;
     
 }
 
@@ -196,6 +212,7 @@ ul li {
     margin: 5px 0;
     margin-bottom: 13px;
     text-align: start;
+    color:white;
 }
 
 .ligacoes ul li a {
