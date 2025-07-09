@@ -182,9 +182,9 @@ ul {
 }
 
 ul li {
-    font-size: 15px;
+    font-size: 17px;
     color: black;
-    line-height: 1.6;
+    line-height: 2.0;
 }
 
 .sidebar .ligacoes a {
@@ -220,6 +220,10 @@ ul li {
     font-style: italic;
     text-decoration: none;
     font-size: 14px;
+}
+
+.sobre-mim ul li{
+    line-height: 40px;
 }
 
 .ligacoes ul li a:hover {
