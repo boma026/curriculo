@@ -254,3 +254,7 @@ ul li {
     color: #444;
     margin: 3px 0;
 }
+
+.projetos_desc {
+    line-height: 30px;
+}
