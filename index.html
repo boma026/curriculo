@@ -1,155 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Arthur Boma Skeete Mypoto</title>
-    <link rel="stylesheet" href="styles2.css">
+  <meta charset="UTF-8">
+  <title>Currículo - Arthur Boma</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #222;
+      margin: 40px;
+      line-height: 1.5;
+    }
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .contact {
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .contact span {
+      margin: 0 10px;
+    }
+    h2 {
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #000;
+      text-transform: uppercase;
+    }
+    p, li {
+      margin: 4px 0;
+    }
+    ul {
+      padding-left: 18px;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .job-date {
+      float: right;
+      font-size: 12px;
+      font-style: italic;
+    }
+    .clear {
+      clear: both;
+    }
+  </style>
 </head>
 <body>
+  <!-- Cabeçalho -->
+  <h1>Arthur Boma</h1>
+  <div class="contact">
+    <span>📧 arthurboma@yahoo.com.br</span>
+    <span>🔗 https://www.linkedin.com/in/arthur-boma-217b111a3/</span>
+    <span>📍 Natal, Brasil</span>
+  </div>
 
-    <header class="container-cur">
-        <div class="header">
-            <div class="logo">A | S</div>
-            <h1>ARTHUR BOMA SKEETE <br> MYPOTO</h1>
-            <div class="contact-info">
-                <div class="info">
-                    <span class="icon">📍</span>
-                    <p>Natal/RN, <br> Rua Teatrólogo Meira Pires, 2357, Brazil</p>
-                </div>
-                <div class="info">
-                    <span class="icon">📞</span>
-                    <p>(84) 987541029</p>
-                </div>
-                <div class="info">
-                    <span class="icon">✉️</span>
-                    <p>arthurboma@yahoo.com.br</p>         
-                </div>
-                <div class="info" style="border:none">
-                    <span class="icon">🌍</span>
-                    <p><a href="https://github.com/boma026" target="_blank" class="links">GitHub: https://github.com/boma026</a></p>
-                    <p><a href="https://www.linkedin.com/in/arthur-boma-217b111a3/" target="_blank" class="links">LinkedIn: https://www.linkedin.com/in/arthur-boma-217b111a3/</a></p>        
-                </div>
-            </div>
-        </div>        
-    </header>
+  <h2>Experiência Profissional</h2>
+  <p><span class="job-title">Desenvolvedor Web Full-Stack</span> – Instituto do Cérebro <span class="job-date">Dezembro 2024 – Setembro 2025</span></p>
+  <div class="clear"></div>
+  <ul>
+    <li>Desenvolvi e mantive sistema web voltado para docentes, palestrantes e mestrandos do Instituto Cérebro.</li>
+    <li>Estruturei o front-end em React (Next.js), utilizando componentes reutilizáveis, hooks e layouts dinâmicos.</li>
+    <li>Implementei APIs em Node.js (Express) e Python (Django) seguindo o padrão MVC.</li>
+    <li>Modelei e manipulei dados com Prisma ORM, incluindo autenticação via JWT</li>
+    <li>Criei testes automatizados com Jest, aplicando matchers e ciclos de vida para garantir qualidade do código.</li>
+  </ul>
 
-    <div class="container-cur">
-        <div class="container" style="display: flex;">
-            <aside class="sidebar"> 
-                <h2>RESUMO</h2>
-                <div class="competencias">
-                    <p style="font-size: 18px; line-height: 35px;">Desenvolvedor full stack com experiência na construção e manutenção de sistemas escaláveis. Atuei em plataformas do BioME no Instituto do Cérebro (UFRN) e em sistemas internos do HUOL, entregando soluções para o suporte às necessidades organizacionais de ambos. Tenho facilidade de aprendizado, adaptação e foco constante no aprimoramento técnico e colaborativo. </p>
-                </div>
+  <p><span class="job-title">Estágio em Desenvolvevimento Web </span> – HUOL <span class="job-date">Agosto 2025 – Atual</span></p>
+  <div class="clear"></div>
+  <ul>
+    <li>Participei do desenvolvimento e manutenção de sistemas do hospital (cirurgias, admissões, consultas, entre outros).</li>
+    <li>Implementei soluções em Laravel (PHP) utilizando o padrão MVC, com Blade para views e interfaces dinâmicas.</li>
+    <li>Colaborei com equipes multidisciplinares em reuniões periódicas para adaptar sistemas às necessidades do hospital.</li>
+    <li>Atuei em equipe ágil com metodologia Scrum, participando de sprints e entregas contínuas.</li>
+  </ul>
 
-                <section class="ligacoes">
-                    <h2 style="padding-bottom: 10px;">LIGAÇÕES</h2>
-                    <ul>
-                        <li><a href="http://www.amd.com" target="_blank">HUOL:<br> https://www.gov.br/ebserh/pt-br/hospitais-universitarios/regiao-nordeste/huol-ufrn</a></li>
-                        <li><a href="https://bioinfo.imd.ufrn.br/site" target="_blank">ICE: <BR> https://bioinfo.imd.ufrn.br/site</a></li>
-                    </ul>
-                </section>
+  <!-- Educação -->
+  <h2>Educação</h2>
+  <p style="margin-bottom: 10px;"><strong>Bacharelado em Tecnologia da Informação</strong> – Universidade Federal do Rio Grande do Norte <span class="job-date">Fevereiro 2022 – (conclusão prevista: 2026)</span></p>
+  <p><strong>Curso avançado de Inglês</strong> – Atlantic Language School  <span class="job-date">Fevereiro 2020 – Outubro 2022</span></p>
+  <div class="clear"></div>
 
-                <section class="ligacoes">
-                    <h2 style="padding-bottom: 10px;">IDIOMAS</h2>
-                    <ul>
-                        <li>Português: Fluente</li>
-                        <li>Inglês: Fluente</li>
-                        <li>Francês: Iniciante</li>
-                        <li>Espanhol: Iniciante</li>
-                    </ul>
-                </section>
+  <!-- Habilidades -->
+  <h2>Habilidades Técnicas</h2>
+  <p><strong>Front-End: </strong> HTML, CSS, Tailwind CSS e React (Next.js), Blade.</p>
+  <p><strong>Back-End: </strong> Node.js (Express), Java (Spring), python (Django), PHP (Laravel).</p>
+  <p><strong>Mobile: </strong> React Native.</p>
+  <p><strong>Banco de Dados: </strong>MySQL, PostgreSQL.</p>
+  <p><strong>Ferramentas & DevOps:</strong> Git, Docker, Jest, Scrum.</p>
 
-                 <section class="ligacoes">
-                    <h2 style="padding-bottom: 10px;">EDUCAÇAO</h2>
-                    <ul>
-                        <li>UFRN (Tecnologia da informação): 2023.1 - Presente </li>
-                        <li>Atlantic Language School (Dublin): 2020.1 - 2022.2</li>
-                        <li>Salesiano Dom Bosco: 2014 - 2016</li>
-                    </ul>
-                </section>
+  <!-- Experiência -->
+  
 
-            </aside>
+  <!--<p><span class="job-title">Desenvolvedor Web Full-Stack</span> – Instituto do Cérebro <span class="job-date">Dezembro 2024 – Setembro 2025</span></p>
+  <div class="clear"></div>
+  <ul>
+    <li>Manutenção, aprimoramento e criação de sistema web voltado para docentes, palestrantes e mestrandos.</li>
+    <li>Estruturação do Front-end em React (Next.js), com uso de componentes, hooks e layouts reutilizáveis.</li>
+    <li>Desenvolvimento de APIs com Node.Js (express) e python (django), no padrão MVC no Back-End.</li>
+    <li>Manipulação de dados com Prisma, ORM. E autenticação de usuários via JWT. </li>
+    <li>Implementação de testes automatizados utilizando Jest, com uso de matchers e lifecycles.</li>
+  </ul>
+-->
+  <!-- Projetos -->
+  <h2>Projetos Autorais</h2>
+    <p><strong>BioME-Certificados</strong></p>
+    <ul>
+      <li>Plataforma web para emissão de certificados digitais em eventos acadêmicos, utilizada por palestrantes do Biome</li>
+    </ul>
 
-            <main class="content">
-                <section class="sobre-mim">
-                    <h2>EXPERIÊNCIA</h2>
-                     <div style="font-weight: bold;font-size: 18px;">Experiência Full Stack — Instituto do Cérebro (UFRN)</div>
-                    <ul>
-                        <li>Manutenção, aprimoramento e criação de sistema web voltado para docentes, palestrantes e mestrandos.</li>
-                        <li>Estruturação do Front-end em React (Next.js), com uso de componentes, hooks e layouts reutilizáveis.</li>
-                        <li>Consumo de APIs REST por meio de requisições HTTP utilizando Axios.</li>
-                        <li>Desenvolvimento de APIs com Node.Js (express) e python (django), no padrão MVC no Back-End.</li>
-                        <li>Manipulação de dados com Prisma, ORM. E autenticação de usuários via JWT. </li>
-                        <li>Implementação de testes automatizados utilizando Jest, com uso de matchers e lifecycles.</li>
-                    </ul>
-                    <div style="font-weight: bold;font-size: 18px; margin-top: 50px;">Experiência Full Stack —  Hospital Universitário Onofre Lopes</div>
-                    <ul>
-                        <li>Estruturação dos sistemas da HUOL, incluindo cirurgias, admissões, consultas, entre outros.</li>
-                        <li>Implementação em Laravel (PHP) no padrão MVC, com Blade para Views e interfaces dinâmicas.</li>
-                        <li>Integração e manipulação de dados em PostgreSQL utilizando o Eloquent ORM.</li>
-                        <li>Consumo e exposição de APIs internas para integração entre módulos.</li>
-                        <li>Atuação em equipe ágil com metodologia Scrum.</li>
-                    </ul>
-                </section>
+    <p><strong>Fanation</strong></p>
+    <ul>
+    <li>Aplicação web interativa para personalização de bonés, permitindo combinação de recortes, materiais e estilos em tempo real.</li>
+    </ul>
 
-                <section class="experiencia">
-                    <h2 style="padding-bottom: 10px;">EXPERIÊNCIA PROFISSIONAL</h2>
+  <!-- Atividades Extra -->
+  <h2>Idiomas</h2>
+  <ul>
+    <li>Português: Fluente</li>
+    <li>Inglês: Fluente</li>
+  </ul>
 
-                     <div class="job">
-                        <div class="job-loc-temp">
-                            <h3>BioME</h3>
-                            <span class="period">2024.2 - 2025.2 | Natal</span>
-                        </div>
-                        <div class="job-titulo-desc">
-                            <h4>Desenvolvedor Full Stack</h4>
-                            <ul>
-                                <li> Criação e manutenção de sistemas web do BioME (NBF, BioME-Certificados).</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="job">
-                        <div class="job-loc-temp">
-                            <h3>HUOL</h3>
-                            <span class="period">2025.2 - Presente | Natal</span>
-                        </div>
-                        <div class="job-titulo-desc">
-                            <h4>Desenvolvedor Full Stack</h4>
-                            <ul>
-                                <li>Desenvolvimento de sistemas web hospitalares, garantindo a gestão interna e operacional conforme suas necessidades.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                   
-                </section>
-
-                <section class="educacao">
-                    <h2  style="padding-bottom: 10px;">TECNOLOGIAS</h2>
-                    <ul>
-                        <li><strong>Front-End: </strong> HTML, CSS, Tailwind CSS e React (Next.js), Blade.</li>
-                        <li><strong>Back-End: </strong> Node.js (Express), Spring (Java), python (Django), PHP (Laravel).</li>
-                        <li><strong>Mobile: </strong> React Native.</li>
-                        <li><strong>Banco de dados: </strong>MySQL e PostgreSQL.</li>
-                    </ul>        
-                </section>
-                <section class="educacao">
-                    <h2 style="padding-bottom: 10px;">PROJETOS AUTORAIS</h2>
-                    <h3>BioME-Certificados</h3>
-                    <p class="projetos_desc">Plataforma web para que palestrantes do Biome emitam o certificados pros ingressantes de seu evento.</p>  
-                    <h3>Fanation</h3>
-                    <p class="projetos_desc">Aplicação web para criação e personalização de recortes de bonés. O sistema permite que usuários combinem diferentes tipos de recortes (aba, frente, lateral), materiais, cores e estilos, montando visualmente suas peças de forma prática e intuitiva.</p>
-                    <h3>Reda Ai</h3>
-                    <p class="projetos_desc">Plataforma web para correção automática de redações do ENEM com uso de IA. Permite que estudantes recebam feedback imediato e pontuação por competência, promovendo aprendizado personalizado e acessível.</p> 
-                     
-                          
-                </section>          
-            </div>
-        </div>
-                
-            </main>
-        </div>
-    </div>
 </body>
 </html>
